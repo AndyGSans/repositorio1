@@ -1,0 +1,133 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-5">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postres</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 0;
+            padding: 0;
+        }
+        .postre {
+            text-align: center;
+            margin: 20px;
+        }
+        .postre img {
+            /* width: 200px; /* Tamaño de las imágenes */
+            height: 100px;
+            display: block;
+            margin: 0 shadow;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="postre">
+        <h1>MENÚ</h1>
+    </div>
+    <div class="postre">
+        <h3>Brownie con helado</h3>
+        <!-- Ruta de la imagen y nombre del archivo -->
+        <img src="{% static 'imagenes/Brownie con helado.jpg' %}">
+        <h3>$250</h3>
+        <h5> Son pastelillos dulces</h5>      
+        <h5>Son pastelillos dulces</h5>
+        <h5>Tienen una cubierta de chocolate</h5>
+        <h5>Pueden incluir en su interior trocitos de nuez </h5>
+    </div>
+    <div class="postre">
+        <h3>Chocoflan</h3>
+        <!-- Ruta de la imagen y nombre del archivo -->
+        <img src="{% static 'imagenes/Chocoflan.jpg' %}" alt="Chocoflan">
+        <h3>$180</h3>
+        <h5> base de pastel de chocolate</h3>
+        <h5>Textura suave y cremosa</h3>
+        <h5>Sabor dulce y ligero</h3>
+    </div>
+    <div class="postre">
+        <h3>Cupcakes de chocolate</h3>
+        <!-- Ruta de la imagen y nombre del archivo -->
+        <img src="{% static 'imagenes/Cupcake de chocolate.jpg' %}" alt="Cupcakes de chocolate">
+        <h3>$200</h3>
+        <h5>Base esponjosa y suave</h3>
+        <h5>Sabor intenso a chocolate</h3>
+        <h5>Cobertura cremosa</h3>
+    </div>
+    <div class="postre">
+        <h3>Cupcakes de fresa</h3>
+        <!-- Ruta de la imagen y nombre del archivo -->
+        <img src="{% static 'imagenes/Cupcake de fresa.jpg' %}" alt="Copcakes de fresa">
+        <h3>$130</h3>
+        <h5>Cobertura de fresa</h3>
+            <h5>Base suave y esponjosa</h3>
+                <h5>Sabor a fresa delicado</h3>
+    </div>
+    <div class="postre">
+        <h3>Flan</h3>
+        <!-- Ruta de la imagen y nombre del archivo -->
+        <img src="{% static 'imagenes/Flan.jpg' %}" alt="Flan">
+        <h3>$170</h3>
+        <h5>Sabor dulce y delicado</h3>
+            <h5>Textura suave y cremosa</h3>
+                <h5>Color caramelo</h3>
+                    <h5>Preparación al baño María</h3>
+    </div>
+    <div class="postre">
+        <h3>Macarons</h3>
+        <!-- Ruta de la imagen y nombre del archivo -->
+        <img src="{% static 'imagenes/Macarons.jpg' %}" alt="Macarons">
+        <h3>$70</h3>
+        <h5>Textura firme y suave</h3>
+            <h5>Variedades de tamaño</h3>
+                <h5>Uso en platos tradicionales</h3>
+    </div>
+    <div class="postre">
+        <h3>Pastel de mil hojas</h3>
+        <!-- Ruta de la imagen y nombre del archivo -->
+        <img src="{% static 'imagenes/Pastel de mil hojas.jpg' %}" alt="Pastel de mil hojas">
+        <h3>$300</h3>
+        <h5>Crema pastelera</h3>
+            <h5>Cubierta de azúcar glas</h3>
+                <h5>Variantes de sabores</h3>
+    </div>
+    <div class="postre">
+        <h3>Pastel de tres leches</h3>
+        <!-- Ruta de la imagen y nombre del archivo -->
+        <img src="{% static 'imagenes/Pastel de tres leches.jpg' %}" alt="Pastel de tres leches">
+        <h3>$420</h3>
+        <h5>Esponjoso y húmedo</h3>
+            <h5>Sabor dulce y lácteo</h3>
+                <h5>Cobertura de crema batida</h3>
+    </div>
+    <div class="postre">
+        <h3>Tarta de limón</h3>
+        <!-- Ruta de la imagen y nombre del archivo -->
+        <img src="{% static 'imagenes/Tarta de limon.jpg' %}" alt="Tarta de limón">
+        <h3>$180</h3>
+        <h5>Base de masa quebrada o galleta</h3>
+            <h5>Cubierta de merengue o crema batida</h3>
+            <h5>Relleno de crema de limón</h3>
+                <h5>Sabor refrescante y equilibrado</h3>
+    </div>
+    <div class="postre">
+        <h3>Tarta de queso</h3>
+        <!-- Ruta de la imagen y nombre del archivo -->
+        <img src= "{% static 'imagenes/Tarta de queso.jpg' %}" alt="Tarta de queso">
+        <h3>$160</h3>
+        <h5>Base de galleta o masa quebrada</h3>
+            <h5>Relleno cremoso y firme</h3>
+                <h5>Coberturas y decoraciones</h3>
+    </div>
+    <div class="postre">
+        <h1>GRACIAS POR SU PREFERENCIA!!!</h1>
+        <h1>___________________</h1>
+    </div>
+</body>
+</html>
